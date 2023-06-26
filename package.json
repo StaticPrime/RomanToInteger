@@ -1,0 +1,24 @@
+{
+    "devDependencies": {
+        "@types/node": "^20.3.1"
+    },
+    "name": "romantointeger",
+    "description": "Convert Roman Numeral to Integer Value",
+    "version": "1.0.0",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "NODE_PATH=build node build/index.js",
+        "lint": "eslint . --ext .ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StaticPrime/RomanToInteger.git"
+    },
+    "author": "Jason Breault",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/StaticPrime/RomanToInteger/issues"
+    },
+    "homepage": "https://github.com/StaticPrime/RomanToInteger#readme"
+}
