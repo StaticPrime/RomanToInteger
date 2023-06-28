@@ -4,6 +4,7 @@ Convert Roman Numeral to Integer Value
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 | Symbol       | Value  |
+|--------------|--------|
 | I            | 1      |
 | V            | 5      |
 | X            | 10     |
