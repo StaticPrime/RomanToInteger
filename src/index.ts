@@ -21,6 +21,10 @@ function romanToInt(rumanNumeral: string): number {
     return total
 }
 
-const args = process.argv.slice(2)
-
-console.log(romanToInt(args[0]))
+console.log('I is ' + romanToInt('I'))
+console.log('IV is ' + romanToInt('IV'))
+console.log('IX is ' + romanToInt('IX'))
+console.log('XIV is ' + romanToInt('XIV'))
+console.log('MIXVI is ' + romanToInt('MIXVI'))
+console.log('MCMXCVII is ' + romanToInt('MCMXCVII'))
+console.log('MMXXIII is ' + romanToInt('MMXXIII'))
